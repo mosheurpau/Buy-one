@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Xiaomi Razer Cynosa",
+    "price": 145,
+    "img": "https://i.ibb.co/jJKwfQ1/img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Xiaomi Lynch Roth",
+    "price": 209,
+    "img": "https://i.ibb.co/ZKQZ4kR/img2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Fox Ballard",
+    "price": 385,
+    "img": "https://i.ibb.co/r7ZrYhs/img3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi Hansen Blanchard",
+    "price": 316,
+    "img": "https://i.ibb.co/wgG8MW0/img4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Xiaomi Elinor Shepherd",
+    "price": 118,
+    "img": "https://i.ibb.co/VYbxFLS/img5.png"
+  },
+  {
+    "id": 6,
+    "name": "Xiaomi Carlson Baxter",
+    "price": 478,
+    "img": "https://i.ibb.co/bWfGvCy/img6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Xiaomi Pearl Mcgowan",
+    "price": 304,
+    "img": "https://i.ibb.co/NghYbZ3/img7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Xiaomi Pearl Mcgowan",
+    "price": 304,
+    "img": "https://i.ibb.co/q5hJj97/img8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Xiaomi Powers Russell",
+    "price": 408,
+    "img": "https://i.ibb.co/7r26gcj/img9.jpg"
+  }
+]
