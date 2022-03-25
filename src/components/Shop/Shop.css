@@ -1,11 +1,11 @@
 .shop-container {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 4fr 2fr;
 }
 .product-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 45px;
+  gap: 15px;
   margin: 100px 50px;
 }
 .cart-container {
@@ -14,10 +14,10 @@
   margin: 100px 10px;
   border-radius: 15px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .shop-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 4fr 2fr;
   }
   .product-container {
     display: grid;
