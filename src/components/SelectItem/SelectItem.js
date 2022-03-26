@@ -3,7 +3,7 @@ import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './SelectItem.css'
 const SelectItem = ({selectedItem, handleRemoveItem}) => {
-    const {name, img, id} = selectedItem;
+    const {name, img} = selectedItem;
     
 
     return (

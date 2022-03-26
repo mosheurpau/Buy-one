@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Buy One
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Live website: [Buy One](https://mosheur-buy-one.netlify.app/).
 
 ## Available Scripts
 
