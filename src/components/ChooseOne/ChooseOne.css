@@ -1,10 +1,15 @@
 .oneChoose {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   padding: 5px;
+  margin-left: 50px;
+  font-size: 20px;
 }
+
 .oneChoose img {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
+  margin-right: 20px;
+  border-radius: 50px;
 }

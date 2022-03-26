@@ -6,12 +6,16 @@ const Cart = ({cart, handleChooseAgain}) => {
     const [oneCart, setOneCart] = useState([]);
 
     const handleChooseOneToCart = (cart) => {
-        let x = Math.floor((Math.random() * cart.length));
-        console.log(cart[x]);
-        const chooseOne = [cart[x]];
-        setOneCart(chooseOne);
-        console.log(chooseOne);
-        
+        if(cart.length) {
+            let x = Math.floor((Math.random() * cart.length));
+            console.log(cart[x]);
+            const chooseOne = [cart[x]];
+            setOneCart(chooseOne);
+            console.log(chooseOne);
+        }
+        else {
+            setOneCart([]);
+        }
     }
     
 

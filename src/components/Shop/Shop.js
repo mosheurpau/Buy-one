@@ -13,10 +13,17 @@ const Shop = () => {
         .then(data => setProducts(data));
     }, [])
 
+    console.log(cart.length);
     const handleAddToCart = (selectedProduct) => {
-        let newCart = [...cart, selectedProduct]
-        setCart(newCart);   
+        if (cart.length < 4) {
+            let newCart = [...cart, selectedProduct]
+            setCart(newCart); 
+        }  
+        else {
+            alert("You can't select more than 4");
+        }
     };
+    
 
     const handleChooseAgain = () => {
         let ChooseCart = [];
