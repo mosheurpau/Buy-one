@@ -3,15 +3,15 @@ import ChooseOne from '../ChooseOne/ChooseOne';
 import SelectItem from '../SelectItem/SelectItem';
 
 const Cart = ({cart, handleChooseAgain}) => {
-    // const {name, img} = cartItem;
-    // console.log(props.cart.name);
     const [oneCart, setOneCart] = useState([]);
 
     const handleChooseOneToCart = (cart) => {
-        // console.log(cart.length);
         let x = Math.floor((Math.random() * cart.length));
-        setOneCart(cart[x]);
-        console.log(cart[x], x);
+        console.log(cart[x]);
+        const chooseOne = [cart[x]];
+        setOneCart(chooseOne);
+        console.log(chooseOne);
+        
     }
     
 
@@ -23,9 +23,9 @@ const Cart = ({cart, handleChooseAgain}) => {
             }
             <h2>Choose One Product</h2>
             {
-                <ChooseOne oneCart={oneCart}></ChooseOne>
+                oneCart.map(one => <ChooseOne key={one.id} oneCart={one}></ChooseOne>)
             }
-            <button onClick={ () => handleChooseOneToCart(cart) }>CHOOSE 1 FOR ME</button> <br/>
+            <button onClick={ () => handleChooseOneToCart(cart)}>CHOOSE 1 FOR ME</button> <br/>
             <button onClick={handleChooseAgain}>CHOOSE AGAIN</button>
         </div>
         
