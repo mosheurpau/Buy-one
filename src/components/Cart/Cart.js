@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ChooseOne from '../ChooseOne/ChooseOne';
 import SelectItem from '../SelectItem/SelectItem';
 
-const Cart = ({cart}) => {
+const Cart = ({cart, handleChooseAgain}) => {
     // const {name, img} = cartItem;
     // console.log(props.cart.name);
     const [oneCart, setOneCart] = useState([]);
@@ -26,7 +26,7 @@ const Cart = ({cart}) => {
                 <ChooseOne oneCart={oneCart}></ChooseOne>
             }
             <button onClick={ () => handleChooseOneToCart(cart) }>CHOOSE 1 FOR ME</button> <br/>
-            <button>CHOOSE AGAIN</button>
+            <button onClick={handleChooseAgain}>CHOOSE AGAIN</button>
         </div>
         
         
