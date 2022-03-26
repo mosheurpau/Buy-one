@@ -1,0 +1,12 @@
+.header h1 {
+  background-color: black;
+  color: white;
+  font-weight: 800;
+  font-family: "Lato";
+  margin-top: 0;
+  padding: 30px;
+}
+.header h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+}

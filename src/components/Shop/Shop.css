@@ -6,12 +6,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  margin: 100px 50px;
+  margin: 50px 50px;
 }
 .cart-container {
   background-color: black;
   color: white;
-  margin: 100px 10px;
+  margin: 50px 10px;
   border-radius: 15px;
 }
 @media screen and (max-width: 1200px) {
@@ -22,7 +22,7 @@
   .product-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 100px auto;
+    margin: 50px auto;
   }
 }
 @media screen and (max-width: 576px) {
@@ -33,6 +33,10 @@
   .product-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 100px auto;
+    margin: 50px auto;
+  }
+  .cart-container {
+    margin: 10px 0px;
+    border-radius: 0px;
   }
 }
